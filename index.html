@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Liste</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- FontAwasome -->
+    <link rel="stylesheet" href="fontawesome-free-5.10.2-web/fontawesome-free-5.10.2-web/css/all.min.css">
+</head>
+<body>
+
+<div id="formContainer">
+	<div class="formHeader">
+		<h2>News Letter</h2>
+		
+	</div>
+	<form id="form" autocomplete="off">
+		
+		<div class="containerInput">
+			<label>Nom</label>
+			<input type="" name="name" id="Name" placeholder="   KONE" style="width:40vh;height: 20px;">
+			<i class="fa fa-check checkIcon HideIcon "
+			 style="position: absolute;top:80px;left:320px;color:green;display: none;"></i>
+			<i class="fa fa-exclamation-circle HideIcon ExclamationIcon" style="position: absolute;top:80px;left:320px;color:red;display: none;" ></i>
+			
+			<div id="statusName" class="hiddenStatus">statut</div>
+		</div>
+		<div class="containerInput">
+			<label>Prenoms</label>
+			<input type="" name="name" id="lastName" placeholder="   Aladji Sanfo" 
+			style="width:40vh;height: 20px;">
+			<i class="fa fa-check checkIcon HideIcon"	
+			style="position: absolute;top:145px;left:320px;color:green ;display: none;";></i>
+			<i class="fa fa-exclamation-circle  HideIcon ExclamationIcon"
+			 style="position: absolute;top:145px;left:320px;color:red;display: none;" ></i>
+			<div id="statusPrenom" class="hiddenStatus">statut</div>
+		</div>
+		<div class="containerInput">
+			<label>Number</label>
+			<input type="" name="name" id="Number" placeholder="    +225 06 - 06 - 78 - 09" style="width:40vh;height: 20px;">
+			<i class="fa fa-check checkIcon HideIcon"	
+			style="position: absolute;top:210px;left:320px;color:green;display: none;"></i>
+			<i class="fa fa-exclamation-circle ExclamationIcon HideIcon" 
+			style="position: absolute;top:210px;left:320px;color:red;display: none;" ></i>
+			<div id="statusNumber" class="hiddenStatus">statut</div>
+		</div>
+	<div>
+			<button id="btnSend">Envoyer</button>
+	</div>
+		
+		
+	</form>
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
